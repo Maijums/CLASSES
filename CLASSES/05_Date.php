@@ -64,13 +64,10 @@ class Date
 
 $date1= new Date(04, 16, 1983);
 
-$date1->set_month(04);
 echo $date1->get_month() . PHP_EOL;
 
-$date1->set_day(016);
 echo $date1->get_day() . PHP_EOL;
 
-$date1->set_year(1943);
 echo $date1->get_year() . PHP_EOL;
 
 echo $date1->displayDate() . PHP_EOL;
